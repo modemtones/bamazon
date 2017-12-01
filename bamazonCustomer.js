@@ -52,7 +52,7 @@ function buyItem() {
       .prompt([
         {
           name: "choice",
-          type: "rawlist",
+          type: "list",
           //build array to display choices
           choices: function() {
             var choiceArray = [];
